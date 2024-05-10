@@ -27,9 +27,9 @@ body{
     flex-direction: row;
     flex-grow: 1;
     justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
-    column-gap: 900px;
+     margin-right: 200px;
+    margin-left: 200px;
+    column-gap: 500px;
     
  
 }
@@ -55,6 +55,7 @@ body{
 .head-link-text{
     font-size: 18px;
     color: #E5E7EB;
+    text-decoration: none;
 
 }
 
@@ -77,8 +78,8 @@ body{
     justify-content:space-around;
     align-items: center;
     flex-basis: 500px;
-    margin-right: auto;
-    margin-left: auto;
+    margin-right: 200px;
+    margin-left: 200px;
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -143,7 +144,8 @@ body{
  .img-card {
     width: 20%;
     height: 20%;
-    
+    flex-shrink: 1;
+    flex-wrap: wrap;
 }
 
 .img-card img {
