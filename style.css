@@ -108,3 +108,45 @@ body{
     align-items: flex-end;
     justify-content: flex-end;
 }
+ /*-------------------SECTION 2----------------------------*/
+
+ .section-2{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #F9FAF8;
+    margin-right: auto;
+    margin-left: auto;
+    
+    
+ }
+
+ .random-info-text{
+    align-items: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    
+ }
+
+ .img-cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 9%;
+
+   
+
+ }
+ .img-card {
+    width: 20%;
+    height: 20%;
+    
+}
+
+.img-card img {
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+  }
