@@ -150,3 +150,37 @@ body{
     height: 300px;
     border-radius: 20px;
   }
+
+  /*---------------section 03--------------------------------*/
+ 
+  .section-3{
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    height: 300px;
+
+    
+  } .quote-section{
+    display: flex;
+    flex-direction: column;
+    
+    margin: auto;
+    width: 800px;
+    justify-content: center;  
+    align-items: center; 
+    
+ }
+.quotation-by-elon-musk{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+ .author {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    font-weight: bolder;
+    color: #101215;
+
+ }
+ 
